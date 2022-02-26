@@ -1,0 +1,33 @@
+{
+  "name": "stackoverflow-cli",
+  "version": "0.0.1",
+  "description": "StackOverflow CLI",
+  "main": "index.js",
+  "bin": {
+    "@ZortWorks/stackoverflow-cli": "bin/stackoverflow-cli",
+    "stackoverflow-cli": "bin/stackoverflow-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZortWorks/stackoverflow-cli.git"
+  },
+  "keywords": [
+    "stackoverflow-cli"
+  ],
+  "author": "Windium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZortWorks/stackoverflow-cli/issues"
+  },
+  "homepage": "https://github.com/ZortWorks/stackoverflow-cli#readme",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "axios": "^0.26.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0"
+  }
+}
